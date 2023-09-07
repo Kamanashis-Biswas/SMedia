@@ -1,12 +1,12 @@
 import React from "react";
 
 export const metadata = {
-  title: "Profile | Next JS",
-  description: "Next JSF",
+  title: "Profile | SMedia",
+  description: "Social Media",
 };
 
 const ProfilePage = () => {
-  return <div>ProfilePage</div>;
+  return <div className="container mx-auto">ProfilePage</div>;
 };
 
 export default ProfilePage;

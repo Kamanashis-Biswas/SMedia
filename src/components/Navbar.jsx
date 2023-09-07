@@ -7,6 +7,10 @@ const navLinks = [
     title: "Home",
   },
   {
+    path: "/addpost",
+    title: "Add Post",
+  },
+  {
     path: "/profile",
     title: "Profile",
   },
@@ -18,7 +22,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between container mx-auto">
+    <nav className="flex items-center justify-between container mx-auto py-2">
       <h1 className="text-3xl font-semibold">SMedia</h1>
       <ul className="flex items-center justify-center">
         {navLinks.map(({ path, title }) => (
